@@ -3,3 +3,5 @@ class Constants:
     PASSWORD = '123456'
     URL = 'https://stellarburgers.nomoreparties.site/'
     NAME = 'galyu09'
+    INCORRECT_PASSWORD = '123'
+    INCORRECT_PASSWORD_MESSAGE = 'Некорректный пароль'
