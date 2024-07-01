@@ -58,19 +58,25 @@ class Locators:
     # кнопка выхода из аккаунта из Личного кабинета (на страничке профиля)
     EXIT_BUTTON = (By.XPATH, "//button[contains(text(),'Выход')]")
 
-
     # Вкладка Булки
     BREAD = (By.XPATH, "//span[text()='Булки']/..")
+
     # Вкладка Соусы
     SAUCES = (By.XPATH, "//span[text()='Соусы']/..")
-    # Начинки "
+
+    # Вкладка "Начинки"
     FILLINGS = (By.XPATH, "//span[text()='Начинки']/..")
 
     # Форма профиля
     PROFILE_FORM = (By.XPATH, "//div[contains(@class, 'Account_content')]")
+
+    # Поле имени
     NAME_FIELD = (By.XPATH, '//input[@name="Name"]')
+
+    # Поле Email
     EMAIL_FIELD = (By.XPATH, '(//input[@name="name"])[1]')
 
+    # Сообщение об ошибке валидации пароля
     ERROR_PASSWORD_MESSAGE = (By.XPATH, '//p[contains(@class, "input__error")]')
 
 
